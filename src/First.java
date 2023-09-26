@@ -11,6 +11,8 @@ import javax.swing.JOptionPane;
  * @author Aluno TDS
  */
 public class First extends javax.swing.JFrame {
+    
+   
 
     /**
      * Creates new form First
@@ -188,7 +190,7 @@ public class First extends javax.swing.JFrame {
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel14.setText("CADASTRO");
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 190, 30));
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 190, 30));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 510, 390));
 
@@ -203,16 +205,16 @@ public class First extends javax.swing.JFrame {
         Planos n = new Planos();
         n.setVisible(true);
         
-        JOptionPane.showMessageDialog(null, "Olá, Mundo!");
+        JOptionPane.showMessageDialog(null, "Cadastro realizado com sucesso!");
+        this.dispose();
 
         // Você pode substituir "Olá, Mundo!" pela mensagem que desejar.
-    }
+    
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // TODO add your handling code here:
-
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jFormattedTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jFormattedTextField1ActionPerformed
